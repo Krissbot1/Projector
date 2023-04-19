@@ -17,7 +17,7 @@
 # Therefore, don`t try to write a code from the first attempt.
 
 
-def hats_in_cats(cats: int, rounds: int):
+def hats_on_cats(cats: int, rounds: int):
     '''Takes number of cats without hats and number of rounds in which it
       will put hats on those cats following certain rules:
       1. The first round, it stops at every cat, placing a hat on each one.
@@ -48,4 +48,4 @@ def hats_in_cats(cats: int, rounds: int):
     print(f'Maximum of possible iterations: {cats * rounds}')
 
 
-hats_in_cats(100, 100)
+hats_on_cats(100, 100)
