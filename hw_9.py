@@ -49,3 +49,5 @@ def hats_on_cats(cats: int, rounds: int):
 
 
 hats_on_cats(100, 100)
+
+#test
